@@ -4,6 +4,7 @@ import numpy as np
 import tensorflow as tf
 from sklearn.preprocessing import MinMaxScaler
 
+
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
 
 
