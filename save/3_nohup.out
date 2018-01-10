@@ -1,0 +1,72 @@
+  File "neutrol.py", line 57
+    print('train_step:%d\ttrain_gradient:%d', % (trainStep, Gradient))
+                                              ^
+SyntaxError: invalid syntax
+trainDataSize:[1800,12],[1800,2]
+testDataSize:[200,12],[200,2]
+train_step:10000000	train_gradient:0
+Traceback (most recent call last):
+  File "neutrol.py", line 78, in <module>
+    for i in range(STEP):
+NameError: name 'STEP' is not defined
+trainDataSize:[1900,12],[1900,3]
+testDataSize:[100,12],[100,3]
+train_step:50000	train_gradient:0.1000
+Traceback (most recent call last):
+  File "neutrol.py", line 81, in <module>
+    sess.run(train_step, feed_dict={xs: train_data, ys: train_label})
+  File "/usr/local/lib/python3.4/dist-packages/tensorflow/python/client/session.py", line 889, in run
+    run_metadata_ptr)
+  File "/usr/local/lib/python3.4/dist-packages/tensorflow/python/client/session.py", line 1096, in _run
+    % (np_val.shape, subfeed_t.name, str(subfeed_t.get_shape())))
+ValueError: Cannot feed value of shape (1900, 3) for Tensor 'Placeholder_1:0', which has shape '(?, 2)'
+trainDataSize:[1900,12],[1900,3]
+testDataSize:[100,12],[100,3]
+train_step:50000	train_gradient:0.1000
+current_step:5000		train_loss:0.2914072573		test_loss:0.2975691855
+current_step:10000		train_loss:0.2366977483		test_loss:0.2494467795
+current_step:15000		train_loss:0.1920583993		test_loss:0.2115204483
+current_step:20000		train_loss:0.1699184328		test_loss:0.1906411797
+current_step:25000		train_loss:0.1587186456		test_loss:0.1818257570
+current_step:30000		train_loss:0.1466066986		test_loss:0.1741811782
+current_step:35000		train_loss:0.1329977363		test_loss:0.1656673402
+current_step:40000		train_loss:0.1210986972		test_loss:0.1566210985
+current_step:45000		train_loss:0.1119198501		test_loss:0.1506700367
+current_step:50000		train_loss:0.0929531977		test_loss:0.1224304214
+startAtTime:2018-01-02 19:36:52.191845
+stopAtTime: 2018-01-02 19:38:55.938381
+trainDataSize:[1900,12],[1900,3]
+testDataSize:[100,12],[100,3]
+train_step:500000	train_gradient:0.1000
+current_step:50000		train_loss:0.0920523703		test_loss:0.1020445153
+current_step:100000		train_loss:0.0574572831		test_loss:0.0658745840
+current_step:150000		train_loss:0.0427817628		test_loss:0.0488914810
+current_step:200000		train_loss:0.0307321902		test_loss:0.0346381664
+current_step:250000		train_loss:0.0230377745		test_loss:0.0270378962
+current_step:300000		train_loss:0.0182412006		test_loss:0.0218531992
+current_step:350000		train_loss:0.0140191354		test_loss:0.0168126170
+current_step:400000		train_loss:0.0072675068		test_loss:0.0109473653
+current_step:450000		train_loss:0.0055927569		test_loss:0.0083070239
+current_step:500000		train_loss:0.0048301239		test_loss:0.0066794246
+startAtTime:2018-01-02 19:43:51.706088
+stopAtTime: 2018-01-02 20:03:59.546470
+
+
+ usecols=(11, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 35, 39, 40),
+trainDataSize:[1900,12],[1900,3]
+testDataSize:[100,12],[100,3]
+train_step:10000000	train_gradient:0.0500
+current_step:1000000		train_loss:0.0029193202		test_loss:0.0040817033
+current_step:2000000		train_loss:0.0015589242		test_loss:0.0021373357
+current_step:3000000		train_loss:0.0010661340		test_loss:0.0013104904
+current_step:4000000		train_loss:0.0008029071		test_loss:0.0008710621
+current_step:5000000		train_loss:0.0007863423		test_loss:0.0007863652
+current_step:6000000		train_loss:0.0007117618		test_loss:0.0007047094
+current_step:7000000		train_loss:0.0006320626		test_loss:0.0006351990
+current_step:8000000		train_loss:0.0005714942		test_loss:0.0005794987
+current_step:9000000		train_loss:0.0005192538		test_loss:0.0005301738
+current_step:10000000		train_loss:0.0004834941		test_loss:0.0004824723
+startAtTime:2018-01-02 20:14:06.037638
+stopAtTime: 2018-01-03 02:48:10.283556
+
+

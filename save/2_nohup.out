@@ -1,0 +1,80 @@
+trainDataSize:[1800,12],[1800,2]
+testDataSize:[200,12],[200,2]
+current_step:100000		train_loss:0.0308367498		test_loss:0.0318692029
+current_step:200000		train_loss:0.0273905247		test_loss:0.0268715862
+current_step:300000		train_loss:0.0257622916		test_loss:0.0251283031
+current_step:400000		train_loss:0.0246015340		test_loss:0.0240513701
+current_step:500000		train_loss:0.0236609560		test_loss:0.0231535770
+current_step:600000		train_loss:0.0228059273		test_loss:0.0222274382
+current_step:700000		train_loss:0.0218729787		test_loss:0.0211169384
+current_step:800000		train_loss:0.0202767570		test_loss:0.0192105211
+current_step:900000		train_loss:0.0176359471		test_loss:0.0161310248
+current_step:1000000		train_loss:0.0157788061		test_loss:0.0139328074
+done!
+
+
+trainDataSize:[1800,12],[1800,2]
+testDataSize:[200,12],[200,2]
+train_step:1000000	train_gradient:0.0100
+current_step:100000		train_loss:0.0298515949		test_loss:0.0305832103
+current_step:200000		train_loss:0.0263520814		test_loss:0.0260472577
+current_step:300000		train_loss:0.0243874360		test_loss:0.0242072064
+current_step:400000		train_loss:0.0227715168		test_loss:0.0227321200
+current_step:500000		train_loss:0.0211220458		test_loss:0.0208639484
+current_step:600000		train_loss:0.0190148819		test_loss:0.0182096120
+current_step:700000		train_loss:0.0168875903		test_loss:0.0155188153
+current_step:800000		train_loss:0.0156168388		test_loss:0.0139790131
+current_step:900000		train_loss:0.0148924859		test_loss:0.0132336915
+current_step:1000000		train_loss:0.0143896770		test_loss:0.0127871446
+startAtTime:2018-01-02 17:13:27.089258
+stopAtTime: 2018-01-02 17:49:46.667448
+trainDataSize:[1800,12],[1800,2]
+testDataSize:[200,12],[200,2]
+train_step:1000000	train_gradient:0.0100
+current_step:100000		train_loss:0.0306460485		test_loss:0.0312813967
+current_step:200000		train_loss:0.0273335222		test_loss:0.0269717686
+current_step:300000		train_loss:0.0253995098		test_loss:0.0249011274
+current_step:400000		train_loss:0.0237701982		test_loss:0.0232340917
+current_step:500000		train_loss:0.0221921355		test_loss:0.0215140674
+current_step:600000		train_loss:0.0204457063		test_loss:0.0196079947
+current_step:700000		train_loss:0.0185404252		test_loss:0.0175449010
+current_step:800000		train_loss:0.0170101132		test_loss:0.0156528782
+current_step:900000		train_loss:0.0159360021		test_loss:0.0142517714
+current_step:1000000		train_loss:0.0152814742		test_loss:0.0136448862
+startAtTime:2018-01-02 18:14:35.877237
+stopAtTime: 2018-01-02 18:50:31.459485
+trainDataSize:[1800,12],[1800,2]
+testDataSize:[200,12],[200,2]
+train_step:1000000	train_gradient:0.0100
+Traceback (most recent call last):
+  File "neutrol.py", line 81, in <module>
+    sess.run(train_step, feed_dict={xs: train_data, ys: train_label})
+  File "/usr/local/lib/python3.4/dist-packages/tensorflow/python/client/session.py", line 889, in run
+    run_metadata_ptr)
+  File "/usr/local/lib/python3.4/dist-packages/tensorflow/python/client/session.py", line 1120, in _run
+    feed_dict_tensor, options, run_metadata)
+  File "/usr/local/lib/python3.4/dist-packages/tensorflow/python/client/session.py", line 1317, in _do_run
+    options, run_metadata)
+  File "/usr/local/lib/python3.4/dist-packages/tensorflow/python/client/session.py", line 1323, in _do_call
+    return fn(*args)
+  File "/usr/local/lib/python3.4/dist-packages/tensorflow/python/client/session.py", line 1302, in _run_fn
+    status, run_metadata)
+KeyboardInterrupt
+
+
+usecols=(0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 35, 39, 40),
+trainDataSize:[1800,23],[1800,3]
+testDataSize:[200,23],[200,3]
+train_step:10000000	train_gradient:0.0100
+current_step:1000000		train_loss:0.0413667634		test_loss:0.0365940332
+current_step:2000000		train_loss:0.0111892577		test_loss:0.0109552406
+current_step:3000000		train_loss:0.0047731376		test_loss:0.0045557530
+current_step:4000000		train_loss:0.0027713787		test_loss:0.0026990806
+current_step:5000000		train_loss:0.0013318181		test_loss:0.0013002062
+current_step:6000000		train_loss:0.0010615349		test_loss:0.0010471196
+current_step:7000000		train_loss:0.0011851335		test_loss:0.0012173112
+current_step:8000000		train_loss:0.0009922084		test_loss:0.0009456881
+current_step:9000000		train_loss:0.0009140503		test_loss:0.0009243976
+current_step:10000000		train_loss:0.0008298308		test_loss:0.0008331990
+startAtTime:2018-01-02 20:31:51.418107
+stopAtTime: 2018-01-03 03:14:00.574761

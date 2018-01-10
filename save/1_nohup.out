@@ -1,0 +1,77 @@
+trainDataSize:[1800,12],[1800,2]
+testDataSize:[200,12],[200,2]
+current_step:100		train_loss:0.6415503025		test_loss:0.7021484375
+current_step:200		train_loss:0.6414622664		test_loss:0.7021254897
+current_step:300		train_loss:0.6413771510		test_loss:0.7021026015
+current_step:400		train_loss:0.6412950158		test_loss:0.7020795941
+current_step:500		train_loss:0.6412157416		test_loss:0.7020565271
+current_step:600		train_loss:0.6411387920		test_loss:0.7020332217
+current_step:700		train_loss:0.6410635710		test_loss:0.7020095587
+current_step:800		train_loss:0.6409902573		test_loss:0.7019855380
+current_step:900		train_loss:0.6409189105		test_loss:0.7019611597
+current_step:1000		train_loss:0.6408486366		test_loss:0.7019360065
+done!
+
+
+trainDataSize:[1800,12],[1800,2]
+testDataSize:[200,12],[200,2]
+current_step:100		train_loss:0.6424327493		test_loss:0.7062677145
+current_step:200		train_loss:0.6400573850		test_loss:0.7037359476
+current_step:300		train_loss:0.6377042532		test_loss:0.7012491822
+current_step:400		train_loss:0.6352043152		test_loss:0.6986259222
+current_step:500		train_loss:0.6323823333		test_loss:0.6956745386
+current_step:600		train_loss:0.6290277839		test_loss:0.6921635270
+current_step:700		train_loss:0.6248618960		test_loss:0.6877819896
+current_step:800		train_loss:0.6194867492		test_loss:0.6820805073
+current_step:900		train_loss:0.6123098135		test_loss:0.6743841767
+current_step:1000		train_loss:0.6024534702		test_loss:0.6636800170
+done!
+
+
+trainDataSize:[1800,12],[1800,2]
+testDataSize:[200,12],[200,2]
+current_step:100000		train_loss:0.1515750289		test_loss:0.1419517100
+current_step:200000		train_loss:0.1143124551		test_loss:0.1066904664
+current_step:300000		train_loss:0.0978311002		test_loss:0.0827858821
+current_step:400000		train_loss:0.0866381973		test_loss:0.0664542019
+current_step:500000		train_loss:0.0819116607		test_loss:0.0612920299
+current_step:600000		train_loss:0.0737413466		test_loss:0.0547332950
+current_step:700000		train_loss:0.0661359802		test_loss:0.0478507653
+current_step:800000		train_loss:0.0587804578		test_loss:0.0412493832
+current_step:900000		train_loss:0.0523772351		test_loss:0.0362552740
+current_step:1000000		train_loss:0.0476163551		test_loss:0.0332650058
+done!
+
+
+trainDataSize:[1800,12],[1800,3]
+testDataSize:[200,12],[200,3]
+train_step:1000000	train_gradient:0.0100
+current_step:100000		train_loss:0.0508549251		test_loss:0.0689250156
+current_step:200000		train_loss:0.0239150189		test_loss:0.0271037910
+current_step:300000		train_loss:0.0194054525		test_loss:0.0211634580
+current_step:400000		train_loss:0.0169233084		test_loss:0.0181953553
+current_step:500000		train_loss:0.0147893988		test_loss:0.0159333702
+current_step:600000		train_loss:0.0128418813		test_loss:0.0138879921
+current_step:700000		train_loss:0.0114021208		test_loss:0.0123317596
+current_step:800000		train_loss:0.0103953471		test_loss:0.0111746369
+current_step:900000		train_loss:0.0096855396		test_loss:0.0102917990
+current_step:1000000		train_loss:0.0091562066		test_loss:0.0095910337
+startAtTime:2018-01-02 16:59:43.032512
+stopAtTime: 2018-01-02 17:39:02.386984
+
+原数据
+trainDataSize:[1800,12],[1800,3]
+testDataSize:[200,12],[200,3]
+train_step:10000000	train_gradient:0.0100
+current_step:1000000		train_loss:0.0099318540		test_loss:0.0097150523
+current_step:2000000		train_loss:0.0060502584		test_loss:0.0057702805
+current_step:3000000		train_loss:0.0048735901		test_loss:0.0046362299
+current_step:4000000		train_loss:0.0043126717		test_loss:0.0040030899
+current_step:5000000		train_loss:0.0039560404		test_loss:0.0036368412
+current_step:6000000		train_loss:0.0037015635		test_loss:0.0033935625
+current_step:7000000		train_loss:0.0034905705		test_loss:0.0032045818
+current_step:8000000		train_loss:0.0033229296		test_loss:0.0030633130
+current_step:9000000		train_loss:0.0031756994		test_loss:0.0029462758
+current_step:10000000		train_loss:0.0030447387		test_loss:0.0028429700
+startAtTime:2018-01-02 18:12:10.537032
+stopAtTime: 2018-01-03 00:30:14.333294
